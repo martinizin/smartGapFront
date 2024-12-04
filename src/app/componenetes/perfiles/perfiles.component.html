@@ -1,0 +1,9 @@
+<div class="perfil-container" *ngIf="usuario">
+    <h2>Perfil de Usuario</h2>
+    <p><strong>Nombre:</strong> {{ usuario.nombre }} {{ usuario.apellido }}</p>
+    <p><strong>Correo:</strong> {{ usuario.correo }}</p>
+    <p><strong>Carrera:</strong> {{ usuario.carrera }}</p>
+    <p><strong>Semestre:</strong> {{ usuario.semestre }}</p>
+    <p><strong>Género:</strong> {{ usuario.genero }}</p>
+    <p><strong>Fecha de Registro:</strong> {{ usuario.fecha_registro }}</p>
+</div>
