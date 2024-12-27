@@ -25,12 +25,9 @@
         <label for="semestre">Semestre</label>
         <input type="text" id="semestre" [(ngModel)]="semestre" name="semestre">
       </div>
-      <div>
-        <label for="genero">Género</label>
-        <input type="text" id="genero" [(ngModel)]="genero" name="genero">
-      </div>
       <div *ngIf="error" class="error-message">{{ error }}</div>
       <button type="submit">Registrar</button>
+      <a href="/login">Iniciar sesión</a>
     </form>
   </div>
   
